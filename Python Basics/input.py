@@ -1,0 +1,6 @@
+print("hello world")
+name = input("Enter your name : ")
+print("Your name is " + name)
+num1 = input("Enter first number : ")
+num2 = input("Enter second number : ")
+print(num1 + num2)
