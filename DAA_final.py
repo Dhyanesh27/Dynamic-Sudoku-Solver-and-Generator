@@ -82,9 +82,6 @@ def generate_puzzle():
     SudokuSolverGUI.update_display()
     SudokuSolverGUI.status_label.config(text="NEW PUZZLE", fg="green")
 
-# ===================== 3. GUI/VISUALIZATION LOGIC =====================
-# Handles all GUI (Tkinter) setup, event logic, and visualization.
-# ----------------------------------------------------------------------
 class SudokuSolverGUI:
     def __init__(self, root):
         self.root = root
