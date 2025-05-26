@@ -1,9 +1,4 @@
 
-import tkinter as tk
-from tkinter import font as tkfont
-import time
-import copy
-import random
 
 def is_valid_choice(board, row, col, num):
     if num in board[row]:
