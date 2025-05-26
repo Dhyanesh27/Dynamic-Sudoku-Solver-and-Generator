@@ -26,7 +26,7 @@ def find_empty_cell(board):
     return None
 
 def solve_sudoku_visual(board, delay=0.05, instant_mode=False):
-    empty = find_empty_cell(board) # list of index of empty cell
+    empty = find_empty_cell(board)
     if not empty:
         return True
     row, col = empty # storing empty cells in row,col
