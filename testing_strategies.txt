@@ -1,0 +1,17 @@
+Here are the manual testing strategies for your project, now numbered for clarity:
+
+1. Verified that the application window opened and displayed the Sudoku grid correctly.
+2. Checked that the "Generate" button created a new, valid Sudoku puzzle each time.
+3. Clicked on cells to select them and confirmed that the selection was highlighted.
+4. Entered numbers into cells in input mode and ensured only valid entries were accepted.
+5. Attempted to enter invalid numbers and observed that error messages appeared as expected.
+6. Used the "Slow-Solve" button to watch the puzzle being solved step by step.
+7. Used the "Instant-Solve" button to solve the puzzle immediately.
+8. Pressed the "Reset" button to restore the puzzle to its original state.
+9. Pressed the "Clear" button to empty the board for custom input.
+10. Switched between input mode and normal mode to confirm correct behavior.
+11. Observed that the status messages updated appropriately for each action.
+12. Ensured that the GUI remained responsive during solving and puzzle generation.
+13. Checked that all buttons were enabled and disabled at the correct times (e.g., during solving).
+14. Tested edge cases such as a fully filled board, an empty board, and unsolvable boards.
+15. Confirmed that the application did not crash or freeze during any operation.
