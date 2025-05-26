@@ -1,0 +1,22 @@
+# requirements.txt for Sudoku Solver & Generator Project
+# List of all libraries and tech stack used
+
+# --- Python Standard Library (no installation needed) ---
+# Python 3.7+
+# time, copy, random: Used for algorithm logic and puzzle generation
+# tkinter: Used for GUI (comes with standard Python on Windows/Linux)
+
+# --- External Libraries ---
+# (None required, all dependencies are from the Python standard library)
+
+# If using a minimal Python installation, you may need to install tkinter:
+# For Ubuntu/Debian: sudo apt-get install python3-tk
+# For Windows: Included by default
+# For Mac: Included by default
+
+# --- Prerequisites to Understand This Project ---
+# 1. Basic Python programming (functions, classes, lists)
+# 2. Understanding of recursion and backtracking algorithms
+# 3. Familiarity with 2D lists (matrices) in Python
+# 4. Basic knowledge of GUI programming (Tkinter basics)
+# 5. Sudoku rules and logic
