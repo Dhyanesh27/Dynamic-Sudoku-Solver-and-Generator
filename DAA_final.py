@@ -29,7 +29,7 @@ def solve_sudoku_visual(board, delay=0.05, instant_mode=False):
     empty = find_empty_cell(board)
     if not empty:
         return True
-    row, col = empty # storing empty cells in row,col
+    row, col = empty
     for num in range(1, 10):
         if SudokuSolverGUI.stop_solving:
             return False
