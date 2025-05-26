@@ -1,6 +1,4 @@
-# ===================== 1. SOLVING LOGIC =====================
-# Handles all logic related to solving the Sudoku puzzle.
-# ------------------------------------------------------------
+
 import tkinter as tk
 from tkinter import font as tkfont
 import time
@@ -61,9 +59,6 @@ def solve_instant(board):
             board[row][col] = 0
     return False
 
-# ===================== 2. GENERATING LOGIC =====================
-# Handles puzzle generation logic.
-# --------------------------------------------------------------
 def generate_puzzle():
     if SudokuSolverGUI.solving:
         return
